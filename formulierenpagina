@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulierenpagina</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>Aanmelden</h1>
+    </header>
+    <main>
+       <section>
+        <p>
+Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.
+        </p>
+        <p><i>
+CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+        </i></p>
+        <p>
+Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.
+       </p>
+
+       <p>Contactgegevens</p>
+        <form>
+  <label>Naam:<br>
+  <input type="text" name="Naam">
+      <br></label>
+  Bedrijf:<br>
+  <input type="text" name="Bedrijf">
+  <br>
+  Adres:<br>
+  <input type="text" name="Adres">
+  <br>
+  Postcode:<br>
+  <input type="text" name="Postcode">
+  <br>
+  Plaats:<br>
+  <input type="text" name="Plaats">
+  <br>
+  Telefoon:<br>
+  <input type="text" name="Telefoon">
+  <br>
+  E-mail:<br>
+  <input type="email" name="email">
+  <br>
+  <input type="submit" value="submit">
+  <br>
+        </form>
+
+        <p>Ik wil mij aanmelden:</p>
+        <form>
+  <input type="radio" name="aanmelden" value="project">Voor een project<br>
+  <input type="radio" name="aanmelden" value="stagebedrijf">Als stagebedrijf<br>
+        </form>
+
+  <br><table border="1">
+
+        <tr>
+        <th>Project</th>
+        <th>Stage</th>
+        </tr>
+
+    <tr>
+    <td>  Geschikt voor<br>
+          1. eerstejaars studenten<br>
+          2. tweedejaars studenten<br>
+          3. derdejaars studenten<br>
+          4. afstudeer studenten<br>
+          5. onbekend
+    </td>
+     <td> Geschikt voor <br>
+          1. Tweedejaars studenten<br>
+          2. Afstudeer studenten<br>
+          3. Onbekend
+    </td>
+    </tr>
+
+
+    <tr>
+    <td>  1. Titel<br>
+          2. Opdrachtomschrijving<br>
+          3. Doelgroepomschrijving<br>
+          4. Doelstelling/intentie van het project<br>
+          5. Looptijd<br>
+          6. Deadline
+    </td>
+      <td>1. Hoe lang is de stage?<br>
+             - 10 weken<br>
+             - 20 weken<br>
+          2. Begin datum
+      </td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>Beschrijving werkzaamheden<br>
+            1. Beschrijving stagewerkzaamheden
+        </td>
+    </tr>
+
+</table>
+
+
+
+        </section>
+    </main>
+</body>
+</html>
